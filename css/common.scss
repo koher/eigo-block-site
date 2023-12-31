@@ -10,13 +10,17 @@ body {
 }
 
 .jumbotron {
-    background-color: $theme-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
     color: $theme-text-color;
     margin: 0;
     padding: 76px 0 0 0 ;
 
     video {
         width: 100%;
+        max-width: 667px;
         height: auto;
     }
 }
