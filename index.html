@@ -1,0 +1,153 @@
+---
+---
+<!doctype html>
+<html lang="en">
+
+<head>
+  {% include analytics.html %}
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover">
+  <link rel="icon" href="/img/favicon.ico">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/common.css" />
+  <link rel="stylesheet" href="/css/index.css" />
+  <title>えいごブロック</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-light navbar-expand-md fixed-top pg-bd-theme pg-safe-area pg-safe-area-top">
+    <a class="navbar-brand" href="/"><img src="/img/logo.png" alt="えいごブロック" /></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+      aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">『えいごブロック』とは <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#download">ダウンロード</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">お問い合わせ</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <main role="main pg-safe-area pg-safe-area-top">
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <section class="jumbotron">
+        <video autoplay loop muted>
+            <source src="/mov/demo.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <section id="introduction-section" class="pg-bg-normal">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 offset-md-2 col-12">
+            <h2>英文法 × パズルゲーム</h2>
+            <p>『えいごブロック』は、英語のブロックを組み合わせて遊ぶパズルゲームです。ゲームを通して英語の文法を学ぶことができます。</p>
+            <p class="pg-button"><a class="btn btn-primary btn-lg" href="#about" role="button">もっと詳しく &raquo;</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about-section" class="pg-bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 offset-md-2 col-12">
+            <h2><a id="about"></a>『えいごブロック』とは</h2>
+            <p>『えいごブロック』は、遊びながら英語の文法を学ぶことができるパズルゲームです。</p>
+            <p>
+                『えいごブロック』では、英単語がブロックとして表されます。ブロックの色は単語の品詞に対応しています。たとえば、名詞は <span class="block block-nominal">&nbsp;</span> 色、動詞は <span class="block block-verbal">&nbsp;</span> 色、形容詞は <span class="block block-adjectival">&nbsp;</span> 色のブロックで表されます。
+            </p>
+            <p>
+                ブロックには別のブロックをはめ込むための穴があります。穴には色が付いており、その色のブロックしかはめ込むことができません。 <span class="block block-verbal">play <span class="block-hole"><span class="block-hole-kind block-nominal"></span></span></span> の目的語として <span class="block block-nominal">tennis</span> をはめ込むことはできますが、 <span class="block block-verbal">walk</span> や <span class="block block-adjectival">cold</span> をはめ込むことはできません。
+            </p>
+            <p>
+                『えいごブロック』で文がどのように表されるか、いくつか例を挙げます。
+            </p>
+            <ul>
+                <li><span class="block block-sentence"><span class="block block-nominal">I</span><span class="block block-verbal">walk</span> .</span></li>
+                <li><span class="block block-sentence"><span class="block block-nominal">I</span><span class="block block-verbal">play <span class="block block-nominal">tennis</span></span> .</span></li>
+                <li><span class="block block-sentence"><span class="block block-nominal">We</span><span class="block block-verbal">like <span class="block block-nominal"><span class="block block-adjectival">hot</span> <span class="block block-nominal">coffee</span></span></span> .</span></li>
+                <li><span class="block block-sentence"><span class="block block-nominal">The <span class="block block-nominal-countable">man</span></span><span class="block block-verbal">likes <span class="block block-nominal">to <span class="block block-verbal">play <span class="block block-nominal">tennis</span></span></span></span> .</span></li>
+                <li><span class="block block-sentence"><span class="block block-nominal">I</span><span class="block block-verbal"><span class="block block-verbal">drink <span class="block block-nominal"><span class="block block-adjectival">hot</span> <span class="block block-nominal">tea</span></span></span><span class="block block-adverbial">slowly</span></span> .</span></li>
+            </ul>
+            <p>
+                このように、ブロックを組み合わせて様々な文を作る中で、英語の文法を学ぶことができます。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="download-section" class="pg-bg-normal">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 offset-md-2 col-12">
+            <h2><a id="download"></a>ダウンロード</h2>
+            <div class="row">
+              <div class="pg-item col-md-12">
+                <a href="https://testflight.apple.com/join/e7y6N4Ei">
+                  <img src="/img/app-store.png" alt="App Store でダウンロード" />
+                </a>
+                <p>
+                    （現在ベータ版のテスト中です）
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact-section" class="pg-bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="pg-item col-md-4 offset-md-4 col-12">
+            <a id="contact" href="mailto:koher@koherent.org"><i class="far fa-envelope fa-5x"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pg-bd-theme pg-safe-area pg-safe-area-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-7">&copy; 2023 Yuta Koshizawa</div>
+        <div class="col-5 pg-right">
+          <a href="privacy-policy.html"><span class="pg-unit">プライバシー</span><span class="pg-unit">ポリシー</span></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

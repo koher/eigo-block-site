@@ -1,0 +1,182 @@
+---
+---
+
+@charset "utf-8";
+@import "color";
+@import "layout";
+
+body {
+    background-color: $theme-color;
+}
+
+.jumbotron {
+    background-color: $theme-color;
+    color: $theme-text-color;
+    margin: 0;
+    padding: 76px 0 0 0 ;
+
+    video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+nav {
+    @extend .pg-bg-theme;
+
+    .navbar-brand {
+        img {
+            height: 50px;
+        }
+    }
+}
+
+section {
+    background-color: $normal-color;
+    padding-top: $section-padding-top;
+    padding-bottom: $section-padding-bottom;
+}
+
+footer {
+    @extend .pg-bg-theme;
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+    .pg-right {
+        text-align: right;
+    }
+}
+
+h2,h3 {
+    text-align: center;
+}
+
+a {
+    color: $accent-color;
+
+    &:hover {
+        color: $accent-color-hover;
+    }
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000000;
+
+    &:hover {
+        color: $theme-link-color-hover;
+    }
+}
+
+.btn-primary {
+    background-color: $accent-color;
+    border-color: $accent-color;
+
+    &:hover {
+        background-color: $accent-color-hover;
+        border-color: $accent-color-hover;
+    }
+}
+
+p.pg-button {
+    text-align: center;
+}
+
+canvas {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.pg-bg-theme {
+    color: $theme-text-color;
+    background-color: $theme-color;
+
+    a {
+        color: $theme-link-color;
+
+        &:hover {
+            color: $theme-link-color-hover;
+        }
+    }
+}
+
+.pg-bg-normal {
+    background-color: $normal-color;
+}
+
+.pg-bg-light {
+    background-color: #ffffff;
+}
+
+.pg-safe-area {
+    padding-right: constant(safe-area-inset-right);
+    padding-left: constant(safe-area-inset-left);
+}
+
+.pg-safe-area-top {
+    padding-top: constant(safe-area-inset-top);
+}
+
+.pg-safe-area-bottom {
+    padding-bottom: constant(safe-area-inset-bottom);
+}
+
+span.pg-unit {
+    display: inline-block;
+}
+
+.block {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4em;
+    padding: 0.2em 0.8em;
+    border: solid 2px #ffffff;
+    border-radius: 99em; 
+    min-width: 2.8em;
+    color: #ffffff;
+    font-family: serif;
+    font-weight: bold;
+}
+
+.block-nominal {
+    background-color: $nominal-color;
+}
+
+.block-nominal-countable {
+    background-color: $nominal-countable-color;
+}
+
+.block-verbal {
+    background-color: $verbal-color;
+}
+
+.block-adjectival {
+    background-color: $adjectival-color;
+}
+
+.block-adverbial {
+    background-color: $adverbial-color;
+}
+
+.block-sentence {
+    background-color: $sentence-color;
+}
+
+.block-hole {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.8em;
+    height: 1.2em;
+    border-radius: 99em; 
+    background-color: #ffffff;
+}
+
+.block-hole-kind {
+    display: inline-block;
+    width: 0.9em;
+    height: 0.6em;
+    border-radius: 99em; 
+}
