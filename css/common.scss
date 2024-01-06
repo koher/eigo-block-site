@@ -129,7 +129,7 @@ span.eb-unit {
     display: inline-block;
 }
 
-.block {
+.eb-block {
     display: inline-flex;
     flex-direction: row;
     align-items: center;
@@ -144,31 +144,31 @@ span.eb-unit {
     font-weight: bold;
 }
 
-.block-nominal {
+.eb-block-nominal {
     background-color: $nominal-color;
 }
 
-.block-nominal-countable {
+.eb-block-nominal-countable {
     background-color: $nominal-countable-color;
 }
 
-.block-verbal {
+.eb-block-verbal {
     background-color: $verbal-color;
 }
 
-.block-adjectival {
+.eb-block-adjectival {
     background-color: $adjectival-color;
 }
 
-.block-adverbial {
+.eb-block-adverbial {
     background-color: $adverbial-color;
 }
 
-.block-sentence {
+.eb-block-sentence {
     background-color: $sentence-color;
 }
 
-.block-hole {
+.eb-block-hole {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -178,14 +178,14 @@ span.eb-unit {
     background-color: #ffffff;
 }
 
-.block-hole-kind {
+.eb-block-hole-kind {
     display: inline-block;
     width: 0.9em;
     height: 0.6em;
     border-radius: 99em; 
 }
 
-.block-sentence-lines {
+.eb-block-sentence-lines {
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -194,7 +194,13 @@ span.eb-unit {
     overflow-x: hidden;
 }
 
-.block-sentence-line {
+@media (min-width: 768px) {
+    .eb-block-sentence-lines {
+        margin-left: 16.666667%;
+    }
+}
+
+.eb-block-sentence-line {
     overflow-x: hidden;
     padding-left: 15px;
 }
