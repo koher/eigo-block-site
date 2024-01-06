@@ -26,7 +26,7 @@ body {
 }
 
 nav {
-    @extend .pg-bg-theme;
+    @extend .eb-bg-theme;
 
     .navbar-brand {
         img {
@@ -42,12 +42,12 @@ section {
 }
 
 footer {
-    @extend .pg-bg-theme;
+    @extend .eb-bg-theme;
 
     padding-top: 8px;
     padding-bottom: 8px;
 
-    .pg-right {
+    .eb-right {
         text-align: right;
     }
 }
@@ -82,7 +82,7 @@ a {
     }
 }
 
-p.pg-button {
+p.eb-button {
     text-align: center;
 }
 
@@ -91,7 +91,7 @@ canvas {
     vertical-align: bottom;
 }
 
-.pg-bg-theme {
+.eb-bg-theme {
     color: $theme-text-color;
     background-color: $theme-color;
 
@@ -104,28 +104,28 @@ canvas {
     }
 }
 
-.pg-bg-normal {
+.eb-bg-normal {
     background-color: $normal-color;
 }
 
-.pg-bg-light {
+.eb-bg-light {
     background-color: #ffffff;
 }
 
-.pg-safe-area {
+.eb-safe-area {
     padding-right: constant(safe-area-inset-right);
     padding-left: constant(safe-area-inset-left);
 }
 
-.pg-safe-area-top {
+.eb-safe-area-top {
     padding-top: constant(safe-area-inset-top);
 }
 
-.pg-safe-area-bottom {
+.eb-safe-area-bottom {
     padding-bottom: constant(safe-area-inset-bottom);
 }
 
-span.pg-unit {
+span.eb-unit {
     display: inline-block;
 }
 
