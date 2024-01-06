@@ -123,6 +123,12 @@ canvas {
 
 .eb-safe-area-bottom {
     padding-bottom: constant(safe-area-inset-bottom);
+
+    >.container>.row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
 }
 
 span.eb-unit {
