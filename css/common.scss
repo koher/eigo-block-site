@@ -184,3 +184,17 @@ span.pg-unit {
     height: 0.6em;
     border-radius: 99em; 
 }
+
+.block-sentence-lines {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 0.2em;
+    margin-bottom: 1rem;
+    overflow-x: hidden;
+}
+
+.block-sentence-line {
+    overflow-x: hidden;
+    padding-left: 15px;
+}
